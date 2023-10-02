@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+}
+nav,ul{ 
+    position: sticky;
+    align-items: center;
+    width: 100%;
+    background-color:  rgb(120, 120, 120);;
+    display: flex;
+    list-style: none;
+}
+li{ 
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    padding-left: 20px;
+}
+.navLink{
+    color: white;
+    text-decoration: none;
+}
+a{ 
+    text-align: center;
+    padding-left: 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;   
+}
+#resume{
+    border-radius: 4px;
+    width: 10%;
+    margin: 10px 20px;
+    padding: 10px;
+    float: inline-end;
+    background-color:  whitesmoke;
+}
+.home{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-image: url("./images/bgLight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divText{
+    align-items: center;
+    width: 80%;
+}
+.divIcon{
+    width:10% ;
+    padding: 50px 10px 50px 50px;
+}
+.homeInnerText{
+    padding: 10px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+}
+.l1{
+    padding-top: 120px;
+    color: rgba(116, 11, 11, 0.993);
+}
+.l2{
+    font-size: 3em;
+    color: rgba(116, 11, 11, 0.822);
+}
+.l3{
+    font-family: sans-serif;
+    color: rgba(116, 11, 11, 0.993);
+}
+.icons{
+    float: inline-start;
+    display: block;
+    color: whitesmoke ;
+    padding: 20px;
+}
+.iconAnchor{
+text-decoration: none;
+color: white;
+}
+
+.about{
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+   background-color: rgb(41, 40, 40);
+}
+.aboutPart{
+    display: flex;
+    width: 50%;
+    margin: auto;
+
+}
+.text{
+    text-align: left;
+}
+.Aboutp{
+    padding: 10px;
+    height: 150px; 
+    font-size: 1em;
+    color: wheat;
+}
+.picture{
+    margin-top: 15%;
+}
+.skills{
+    padding: 3%;
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+    height: 700px;
+    width: 100%;
+    background-color:  wheat;
+}
+.skillsDisplay{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    margin: 2%;
+}
+.skill{
+    padding: 2%;
+    margin: 3%; 
+}
+.skillIcons{
+    font-size: 1.2em;
+    padding: 5%;
+    color:  rgb(41, 40, 40);
+}
+.skillText{
+    color:  rgb(41, 40, 40);
+    padding-top: 5%;
+}
+
+.portfolio{
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    width: 100%;
+    background-color:  rgb(41, 40, 40);
+    color:  wheat;
+    margin: none;
+}
+.liner{
+    font-size: large;
+    font-weight:bolder;
+
+}
+.porfolioDiv{
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.Portfolio-card{
+    margin: 2%;
+    width: fit-content;
+}
+.portfolioPicture{
+    margin: 4%;
+    width: 18rem;
+}
+.Contact{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: wheat;
+}
+.contactLiner{
+    color: rgb(41, 40, 40);
+}
+.ContactForm{
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+
+}
+.message{
+color: white;
+border: none;
+border-radius: 4px;
+background-color: rgb(49, 49, 49);
+padding: 10px;
+margin: 10px;
+border-radius: 10%;
+width: 250px;
+}
+
+.contactButton{
+    display: block;
+    margin-left:5%; 
+    height: 2rem;
+    border: none;
+    width: 100px;
+    border-radius: 10%;
+    background-color: azure;
+}
